@@ -1,0 +1,1068 @@
+{
+  "version": "2.0.0",
+  "items": [
+    {
+      "name": "login-form",
+      "displayName": "Login Form",
+      "description": "Email/password login with remember-me, forgot password link, and sign-up CTA. Uses react-hook-form + zod validation.",
+      "category": "auth",
+      "tags": [
+        "auth",
+        "form",
+        "login",
+        "email",
+        "password"
+      ],
+      "path": "auth/login-form",
+      "files": [
+        "LoginForm.tsx",
+        "LoginForm.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [
+        "react-hook-form",
+        "@hookform/resolvers",
+        "zod"
+      ],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "register-form",
+      "displayName": "Register Form",
+      "description": "Full registration form with name, email, password + confirm. Zod-validated with password match check.",
+      "category": "auth",
+      "tags": [
+        "auth",
+        "form",
+        "register",
+        "signup"
+      ],
+      "path": "auth/register-form",
+      "files": [
+        "RegisterForm.tsx",
+        "RegisterForm.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [
+        "react-hook-form",
+        "@hookform/resolvers",
+        "zod"
+      ],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "forgot-password-form",
+      "displayName": "Forgot Password Form",
+      "description": "Email-only form to request a password reset link. Shows success/error states.",
+      "category": "auth",
+      "tags": [
+        "auth",
+        "form",
+        "password",
+        "reset"
+      ],
+      "path": "auth/forgot-password-form",
+      "files": [
+        "ForgotPasswordForm.tsx",
+        "ForgotPasswordForm.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "reset-password-form",
+      "displayName": "Reset Password Form",
+      "description": "New password + confirm form for password reset flow. Zod-validated with match check.",
+      "category": "auth",
+      "tags": [
+        "auth",
+        "form",
+        "password",
+        "reset"
+      ],
+      "path": "auth/reset-password-form",
+      "files": [
+        "ResetPasswordForm.tsx",
+        "ResetPasswordForm.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [
+        "react-hook-form",
+        "@hookform/resolvers",
+        "zod"
+      ],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "otp-verification",
+      "displayName": "OTP Verification",
+      "description": "OTP code input with resend link and masked contact display. Configurable code length.",
+      "category": "auth",
+      "tags": [
+        "auth",
+        "otp",
+        "verification",
+        "2fa"
+      ],
+      "path": "auth/otp-verification",
+      "files": [
+        "OtpVerification.tsx",
+        "OtpVerification.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "chart-card",
+      "displayName": "Chart Card",
+      "description": "Simple bar/dot chart rendered with pure SVG. No chart library dependency. Good for sparkline-style visuals.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "bar",
+        "visualization",
+        "svg"
+      ],
+      "path": "charts/chart-card",
+      "files": [
+        "ChartCard.tsx",
+        "ChartCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "pie-chart-card",
+      "displayName": "Pie Chart Card",
+      "description": "Donut/pie chart with legend, rendered via pure SVG paths. Configurable size and segments.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "pie",
+        "donut",
+        "visualization",
+        "svg"
+      ],
+      "path": "charts/pie-chart-card",
+      "files": [
+        "PieChartCard.tsx",
+        "PieChartCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "sparkline-card",
+      "displayName": "Sparkline Card",
+      "description": "Compact metric card with inline SVG sparkline trend line. Zero-dependency charting.",
+      "category": "charts",
+      "tags": [
+        "chart",
+        "sparkline",
+        "metric",
+        "trend",
+        "svg"
+      ],
+      "path": "charts/sparkline-card",
+      "files": [
+        "SparklineCard.tsx",
+        "SparklineCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "contact-card",
+      "displayName": "Contact Card",
+      "description": "CRM contact card with avatar, role, company, tags, and action buttons (call, email, edit).",
+      "category": "crm",
+      "tags": [
+        "crm",
+        "contact",
+        "card",
+        "avatar"
+      ],
+      "path": "crm/contact-card",
+      "files": [
+        "ContactCard.tsx",
+        "ContactCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "deal-card",
+      "displayName": "Deal Card",
+      "description": "CRM deal/opportunity card showing value, stage, probability progress bar, owner, and close date.",
+      "category": "crm",
+      "tags": [
+        "crm",
+        "deal",
+        "pipeline",
+        "sales"
+      ],
+      "path": "crm/deal-card",
+      "files": [
+        "DealCard.tsx",
+        "DealCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "activity-timeline",
+      "displayName": "Activity Timeline",
+      "description": "Vertical timeline of events with icons, types, descriptions, and dates. Supports maxItems truncation.",
+      "category": "crm",
+      "tags": [
+        "crm",
+        "timeline",
+        "activity",
+        "events"
+      ],
+      "path": "crm/activity-timeline",
+      "files": [
+        "ActivityTimeline.tsx",
+        "ActivityTimeline.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "lead-score-indicator",
+      "displayName": "Lead Score Indicator",
+      "description": "Lead scoring card with overall score, color-coded progress bar, and breakdown by scoring factors.",
+      "category": "crm",
+      "tags": [
+        "crm",
+        "lead",
+        "score",
+        "progress"
+      ],
+      "path": "crm/lead-score-indicator",
+      "files": [
+        "LeadScoreIndicator.tsx",
+        "LeadScoreIndicator.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "bulk-action-bar",
+      "displayName": "Bulk Action Bar",
+      "description": "Floating action bar for bulk operations. Shows selected count, action buttons, and clear selection. Auto-hides when nothing selected.",
+      "category": "data",
+      "tags": [
+        "data",
+        "bulk",
+        "actions",
+        "toolbar"
+      ],
+      "path": "data/bulk-action-bar",
+      "files": [
+        "BulkActionBar.tsx",
+        "BulkActionBar.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "filter-bar",
+      "displayName": "Filter Bar",
+      "description": "Multi-filter chip bar with toggle-able options per filter group. Shows active count and clear-all button.",
+      "category": "data",
+      "tags": [
+        "data",
+        "filter",
+        "chips",
+        "search"
+      ],
+      "path": "data/filter-bar",
+      "files": [
+        "FilterBar.tsx",
+        "FilterBar.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "invoice-preview",
+      "displayName": "Invoice Preview",
+      "description": "Full invoice card with from/to addresses, line items table, subtotal, tax, and total. Printable layout.",
+      "category": "erp",
+      "tags": [
+        "erp",
+        "invoice",
+        "billing",
+        "finance"
+      ],
+      "path": "erp/invoice-preview",
+      "files": [
+        "InvoicePreview.tsx",
+        "InvoicePreview.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "order-status-tracker",
+      "displayName": "Order Status Tracker",
+      "description": "Horizontal step tracker for order fulfillment stages. Shows completed steps with checkmarks and dates.",
+      "category": "erp",
+      "tags": [
+        "erp",
+        "order",
+        "tracking",
+        "stepper"
+      ],
+      "path": "erp/order-status-tracker",
+      "files": [
+        "OrderStatusTracker.tsx",
+        "OrderStatusTracker.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "stock-level-card",
+      "displayName": "Stock Level Card",
+      "description": "Inventory stock level with progress bar, reorder point indicator, and auto status (in stock / low / out).",
+      "category": "erp",
+      "tags": [
+        "erp",
+        "inventory",
+        "stock",
+        "warehouse"
+      ],
+      "path": "erp/stock-level-card",
+      "files": [
+        "StockLevelCard.tsx",
+        "StockLevelCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "supplier-card",
+      "displayName": "Supplier Card",
+      "description": "Supplier info card with rating, category badges, contact info, and action buttons.",
+      "category": "erp",
+      "tags": [
+        "erp",
+        "supplier",
+        "vendor",
+        "procurement"
+      ],
+      "path": "erp/supplier-card",
+      "files": [
+        "SupplierCard.tsx",
+        "SupplierCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "announcement-bar",
+      "displayName": "Announcement Bar",
+      "description": "Top-of-page announcement strip with variant colors (info/success/warning/error), link, and dismiss.",
+      "category": "feedback",
+      "tags": [
+        "feedback",
+        "banner",
+        "announcement",
+        "notification"
+      ],
+      "path": "feedback/announcement-bar",
+      "files": [
+        "AnnouncementBar.tsx",
+        "AnnouncementBar.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "cookie-consent",
+      "displayName": "Cookie Consent",
+      "description": "Fixed bottom cookie consent bar with accept, reject, and customize options. Responsive layout.",
+      "category": "feedback",
+      "tags": [
+        "feedback",
+        "cookie",
+        "gdpr",
+        "consent",
+        "privacy"
+      ],
+      "path": "feedback/cookie-consent",
+      "files": [
+        "CookieConsent.tsx",
+        "CookieConsent.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "notification-center",
+      "displayName": "Notification Center",
+      "description": "Notification list card with unread indicators, mark-all-read, dismiss, and empty state.",
+      "category": "feedback",
+      "tags": [
+        "feedback",
+        "notifications",
+        "inbox",
+        "alerts"
+      ],
+      "path": "feedback/notification-center",
+      "files": [
+        "NotificationCenter.tsx",
+        "NotificationCenter.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "contact-form",
+      "displayName": "Contact Form",
+      "description": "Name, email, subject, message contact form. Zod-validated with react-hook-form.",
+      "category": "forms",
+      "tags": [
+        "form",
+        "contact",
+        "email",
+        "support"
+      ],
+      "path": "forms/contact-form",
+      "files": [
+        "ContactForm.tsx",
+        "ContactForm.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [
+        "react-hook-form",
+        "@hookform/resolvers",
+        "zod"
+      ],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "feedback-rating",
+      "displayName": "Feedback Rating",
+      "description": "Star rating widget with optional comment textarea. Hover + click interaction. Configurable max stars.",
+      "category": "forms",
+      "tags": [
+        "form",
+        "rating",
+        "feedback",
+        "stars",
+        "review"
+      ],
+      "path": "forms/feedback-rating",
+      "files": [
+        "FeedbackRating.tsx",
+        "FeedbackRating.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "newsletter-signup",
+      "displayName": "Newsletter Signup",
+      "description": "Inline email input + subscribe button. Minimal newsletter capture widget.",
+      "category": "forms",
+      "tags": [
+        "form",
+        "newsletter",
+        "email",
+        "subscribe",
+        "marketing"
+      ],
+      "path": "forms/newsletter-signup",
+      "files": [
+        "NewsletterSignup.tsx",
+        "NewsletterSignup.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "employee-card",
+      "displayName": "Employee Card",
+      "description": "Employee profile card with avatar, role, department badge. Supports compact and full-size modes.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "employee",
+        "profile",
+        "card"
+      ],
+      "path": "hrm/employee-card",
+      "files": [
+        "EmployeeCard.tsx",
+        "EmployeeCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "team-roster",
+      "displayName": "Team Roster",
+      "description": "Team member list with avatars, roles, online status indicators, and click-to-select.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "team",
+        "roster",
+        "members"
+      ],
+      "path": "hrm/team-roster",
+      "files": [
+        "TeamRoster.tsx",
+        "TeamRoster.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "attendance-status",
+      "displayName": "Attendance Status",
+      "description": "Clock in/out card with break button, today's hours counter, and status badge.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "attendance",
+        "clock",
+        "time-tracking"
+      ],
+      "path": "hrm/attendance-status",
+      "files": [
+        "AttendanceStatus.tsx",
+        "AttendanceStatus.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "leave-balance-card",
+      "displayName": "Leave Balance Card",
+      "description": "Leave type breakdown with used/total days and progress bars. Color-coded when nearing limit.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "leave",
+        "vacation",
+        "balance",
+        "pto"
+      ],
+      "path": "hrm/leave-balance-card",
+      "files": [
+        "LeaveBalanceCard.tsx",
+        "LeaveBalanceCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "onboarding-progress",
+      "displayName": "Onboarding Progress",
+      "description": "Onboarding checklist with overall progress bar and toggleable task checkboxes.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "onboarding",
+        "checklist",
+        "progress"
+      ],
+      "path": "hrm/onboarding-progress",
+      "files": [
+        "OnboardingProgress.tsx",
+        "OnboardingProgress.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "skills-matrix",
+      "displayName": "Skills Matrix",
+      "description": "Skill proficiency card grouped by category. Shows name + level progress bars.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "skills",
+        "competency",
+        "matrix"
+      ],
+      "path": "hrm/skills-matrix",
+      "files": [
+        "SkillsMatrix.tsx",
+        "SkillsMatrix.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "goal-tracker",
+      "displayName": "Goal Tracker",
+      "description": "Goals list with progress bars, status badges (on-track/at-risk/behind), and due dates.",
+      "category": "hrm",
+      "tags": [
+        "hrm",
+        "goals",
+        "okr",
+        "progress",
+        "tracking"
+      ],
+      "path": "hrm/goal-tracker",
+      "files": [
+        "GoalTracker.tsx",
+        "GoalTracker.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "hero-section",
+      "displayName": "Hero Section",
+      "description": "Landing page hero with title, subtitle, action buttons, badge, and image slot. Center or left aligned.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "hero",
+        "landing",
+        "cta"
+      ],
+      "path": "marketing/hero-section",
+      "files": [
+        "HeroSection.tsx",
+        "HeroSection.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "feature-grid",
+      "displayName": "Feature Grid",
+      "description": "Responsive grid of feature cards with icons, titles, and descriptions. Configurable 2-4 columns.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "features",
+        "grid",
+        "landing"
+      ],
+      "path": "marketing/feature-grid",
+      "files": [
+        "FeatureGrid.tsx",
+        "FeatureGrid.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "pricing-table",
+      "displayName": "Pricing Table",
+      "description": "3-column pricing comparison with features list, recommended highlight, and CTA buttons.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "pricing",
+        "plans",
+        "saas"
+      ],
+      "path": "marketing/pricing-table",
+      "files": [
+        "PricingTable.tsx",
+        "PricingTable.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "testimonial-cards",
+      "displayName": "Testimonial Cards",
+      "description": "Customer testimonial grid with avatar, name, role, star rating, and quote.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "testimonials",
+        "reviews",
+        "social-proof"
+      ],
+      "path": "marketing/testimonial-cards",
+      "files": [
+        "TestimonialCards.tsx",
+        "TestimonialCards.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "how-it-works",
+      "displayName": "How It Works",
+      "description": "Numbered step-by-step section with icons, titles, descriptions. 3-column responsive grid.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "steps",
+        "process",
+        "landing"
+      ],
+      "path": "marketing/how-it-works",
+      "files": [
+        "HowItWorks.tsx",
+        "HowItWorks.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "cta-banner",
+      "displayName": "CTA Banner",
+      "description": "Call-to-action section with title, description, primary + secondary action buttons.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "cta",
+        "banner",
+        "conversion"
+      ],
+      "path": "marketing/cta-banner",
+      "files": [
+        "CtaBanner.tsx",
+        "CtaBanner.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "footer",
+      "displayName": "Footer",
+      "description": "Multi-column site footer with link groups, logo slot, and copyright text.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "footer",
+        "navigation",
+        "links"
+      ],
+      "path": "marketing/footer",
+      "files": [
+        "Footer.tsx",
+        "Footer.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "command-menu",
+      "displayName": "Command Menu",
+      "description": "Cmd+K command palette with search, grouped items, and keyboard shortcut. Uses modal overlay.",
+      "category": "navigation",
+      "tags": [
+        "navigation",
+        "command",
+        "search",
+        "palette",
+        "keyboard"
+      ],
+      "path": "navigation/command-menu",
+      "files": [
+        "CommandMenu.tsx",
+        "CommandMenu.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "kpi-card",
+      "displayName": "KPI Card",
+      "description": "Key performance indicator card with value, trend badge, percentage change, and icon slot. Includes loading skeleton.",
+      "category": "stats",
+      "tags": [
+        "stats",
+        "kpi",
+        "metric",
+        "dashboard"
+      ],
+      "path": "stats/kpi-card",
+      "files": [
+        "KpiCard.tsx",
+        "KpiCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "stat-group",
+      "displayName": "Stat Group",
+      "description": "Responsive grid of stat cards with titles, values, and change badges. Configurable 2-4 columns with loading state.",
+      "category": "stats",
+      "tags": [
+        "stats",
+        "metrics",
+        "grid",
+        "dashboard",
+        "summary"
+      ],
+      "path": "stats/stat-group",
+      "files": [
+        "StatGroup.tsx",
+        "StatGroup.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "stats-counter",
+      "displayName": "Stats Counter",
+      "description": "Animated number counter with IntersectionObserver trigger. Counts up when scrolled into view. Great for marketing pages.",
+      "category": "stats",
+      "tags": [
+        "stats",
+        "counter",
+        "animation",
+        "marketing",
+        "numbers"
+      ],
+      "path": "stats/stats-counter",
+      "files": [
+        "StatsCounter.tsx",
+        "StatsCounter.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "metric-comparison",
+      "displayName": "Metric Comparison",
+      "description": "Side-by-side metric comparison with progress bars and percentage change badge. Compares current vs previous period.",
+      "category": "stats",
+      "tags": [
+        "stats",
+        "comparison",
+        "metrics",
+        "period"
+      ],
+      "path": "stats/metric-comparison",
+      "files": [
+        "MetricComparison.tsx",
+        "MetricComparison.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "data-table",
+      "displayName": "Data Table",
+      "description": "Sortable data table with column definitions, custom cell renderers, loading skeletons, empty state, and row click.",
+      "category": "tables",
+      "tags": [
+        "table",
+        "data",
+        "sortable",
+        "grid"
+      ],
+      "path": "tables/data-table",
+      "files": [
+        "DataTable.tsx",
+        "DataTable.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "comparison-table",
+      "displayName": "Comparison Table",
+      "description": "Feature comparison table across plans. Boolean values render as check/dash badges. Supports plan highlighting.",
+      "category": "tables",
+      "tags": [
+        "table",
+        "comparison",
+        "pricing",
+        "features"
+      ],
+      "path": "tables/comparison-table",
+      "files": [
+        "ComparisonTable.tsx",
+        "ComparisonTable.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "avatar-upload",
+      "displayName": "Avatar Upload",
+      "description": "Clickable avatar with file picker overlay. Shows hover edit state. Triggers onUpload with File object.",
+      "category": "user",
+      "tags": [
+        "user",
+        "avatar",
+        "upload",
+        "profile",
+        "image"
+      ],
+      "path": "user/avatar-upload",
+      "files": [
+        "AvatarUpload.tsx",
+        "AvatarUpload.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    },
+    {
+      "name": "user-profile-card",
+      "displayName": "User Profile Card",
+      "description": "User card with avatar, online status dot, name, role, email, and actions slot.",
+      "category": "user",
+      "tags": [
+        "user",
+        "profile",
+        "card",
+        "avatar",
+        "status"
+      ],
+      "path": "user/user-profile-card",
+      "files": [
+        "UserProfileCard.tsx",
+        "UserProfileCard.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigital_ui/ui": ">=1.0.0"
+      }
+    }
+  ]
+}

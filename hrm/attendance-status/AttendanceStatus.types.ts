@@ -1,0 +1,1 @@
+export interface AttendanceStatusProps { status: "clocked-in" | "clocked-out" | "on-break"; clockInTime?: string; todayHours?: number; onClockIn?: () => void; onClockOut?: () => void; onBreak?: () => void; className?: string; }
