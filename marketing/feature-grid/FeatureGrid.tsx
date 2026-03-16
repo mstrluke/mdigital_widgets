@@ -1,6 +1,6 @@
 "use client";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import { cn } from "@voltui/uikit";
 import type { FeatureGridProps } from "./FeatureGrid.types";
 
 const colMap: Record<number, string> = { 2: "md:grid-cols-2", 3: "md:grid-cols-3", 4: "md:grid-cols-2 lg:grid-cols-4" };

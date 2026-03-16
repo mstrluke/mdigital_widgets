@@ -1,6 +1,6 @@
 "use client";
-import { cn } from "@mdigital_ui/ui";
-import Badge from "@mdigital_ui/ui/badge";
+import { cn } from "@voltui/uikit";
+import Badge from "@voltui/uikit/badge";
 import type { ActivityTimelineProps } from "./ActivityTimeline.types";
 
 export default function ActivityTimeline({ events, maxItems, className }: ActivityTimelineProps) {

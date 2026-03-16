@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Table from "@mdigital_ui/ui/table";
-import Skeleton from "@mdigital_ui/ui/skeleton";
-import { cn } from "@mdigital_ui/ui";
+import Table from "@voltui/uikit/table";
+import Skeleton from "@voltui/uikit/skeleton";
+import { cn } from "@voltui/uikit";
 import type { DataTableProps } from "./DataTable.types";
 
 export default function DataTable<T extends Record<string, any>>({ columns, data, keyField = "id", loading, emptyText = "No data", onRowClick, className }: DataTableProps<T>) {

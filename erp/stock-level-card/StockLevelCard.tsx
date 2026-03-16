@@ -1,8 +1,8 @@
 "use client";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Progress from "@mdigital_ui/ui/progress";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Progress from "@voltui/uikit/progress";
+import Badge from "@voltui/uikit/badge";
+import { cn } from "@voltui/uikit";
 import type { StockLevelCardProps } from "./StockLevelCard.types";
 
 export default function StockLevelCard({ product, sku, currentStock, maxStock, reorderPoint, unit = "units", className }: StockLevelCardProps) {

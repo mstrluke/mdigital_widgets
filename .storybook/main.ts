@@ -2,7 +2,7 @@ import type { StorybookConfig } from "@storybook/react-vite";
 import tailwindcss from "@tailwindcss/postcss";
 import path from "path";
 
-const uikit = path.resolve(__dirname, "../../mdigital_uikit/src");
+const uikit = path.resolve(__dirname, "../../voltui_uikit/src");
 
 const config: StorybookConfig = {
   stories: ["../**/*.stories.@(ts|tsx)"],
@@ -22,27 +22,27 @@ const config: StorybookConfig = {
         ...config.resolve,
         alias: {
           ...config.resolve?.alias,
-          "@mdigital_ui/ui/card": path.join(uikit, "card/index.tsx"),
-          "@mdigital_ui/ui/button": path.join(uikit, "button/index.tsx"),
-          "@mdigital_ui/ui/input": path.join(uikit, "input/index.tsx"),
-          "@mdigital_ui/ui/input-password": path.join(uikit, "input-password/index.tsx"),
-          "@mdigital_ui/ui/input-otp": path.join(uikit, "input-otp/index.tsx"),
-          "@mdigital_ui/ui/textarea": path.join(uikit, "textarea/index.tsx"),
-          "@mdigital_ui/ui/checkbox": path.join(uikit, "checkbox/index.tsx"),
-          "@mdigital_ui/ui/badge": path.join(uikit, "badge/index.tsx"),
-          "@mdigital_ui/ui/link": path.join(uikit, "link/index.tsx"),
-          "@mdigital_ui/ui/notification": path.join(uikit, "notification/index.tsx"),
-          "@mdigital_ui/ui/avatar": path.join(uikit, "avatar/index.tsx"),
-          "@mdigital_ui/ui/skeleton": path.join(uikit, "skeleton/index.tsx"),
-          "@mdigital_ui/ui/progress": path.join(uikit, "progress/index.tsx"),
-          "@mdigital_ui/ui/modal": path.join(uikit, "modal/index.tsx"),
-          "@mdigital_ui/ui/dropdown": path.join(uikit, "dropdown/index.tsx"),
-          "@mdigital_ui/ui/divider": path.join(uikit, "divider/index.tsx"),
-          "@mdigital_ui/ui/tooltip": path.join(uikit, "tooltip/index.tsx"),
-          "@mdigital_ui/ui/rating": path.join(uikit, "rating/index.tsx"),
-          "@mdigital_ui/ui/table": path.join(uikit, "table/index.tsx"),
-          "@mdigital_ui/ui/scroll-area": path.join(uikit, "scroll-area/index.tsx"),
-          "@mdigital_ui/ui": path.join(uikit, "index.ts"),
+          "@voltui/uikit/card": path.join(uikit, "card/index.tsx"),
+          "@voltui/uikit/button": path.join(uikit, "button/index.tsx"),
+          "@voltui/uikit/input": path.join(uikit, "input/index.tsx"),
+          "@voltui/uikit/input-password": path.join(uikit, "input-password/index.tsx"),
+          "@voltui/uikit/input-otp": path.join(uikit, "input-otp/index.tsx"),
+          "@voltui/uikit/textarea": path.join(uikit, "textarea/index.tsx"),
+          "@voltui/uikit/checkbox": path.join(uikit, "checkbox/index.tsx"),
+          "@voltui/uikit/badge": path.join(uikit, "badge/index.tsx"),
+          "@voltui/uikit/link": path.join(uikit, "link/index.tsx"),
+          "@voltui/uikit/notification": path.join(uikit, "notification/index.tsx"),
+          "@voltui/uikit/avatar": path.join(uikit, "avatar/index.tsx"),
+          "@voltui/uikit/skeleton": path.join(uikit, "skeleton/index.tsx"),
+          "@voltui/uikit/progress": path.join(uikit, "progress/index.tsx"),
+          "@voltui/uikit/modal": path.join(uikit, "modal/index.tsx"),
+          "@voltui/uikit/dropdown": path.join(uikit, "dropdown/index.tsx"),
+          "@voltui/uikit/divider": path.join(uikit, "divider/index.tsx"),
+          "@voltui/uikit/tooltip": path.join(uikit, "tooltip/index.tsx"),
+          "@voltui/uikit/rating": path.join(uikit, "rating/index.tsx"),
+          "@voltui/uikit/table": path.join(uikit, "table/index.tsx"),
+          "@voltui/uikit/scroll-area": path.join(uikit, "scroll-area/index.tsx"),
+          "@voltui/uikit": path.join(uikit, "index.ts"),
         },
       },
       css: {

@@ -2,9 +2,9 @@ import React from "react";
 import { withThemeByClassName } from "@storybook/addon-themes";
 import type { Preview } from "@storybook/react";
 
-import "../../mdigital_uikit/src/styles/global.css";
-import "../../mdigital_uikit/src/styles/themes/light.css";
-import "../../mdigital_uikit/src/styles/themes/dark.css";
+import "../../voltui_uikit/src/styles/global.css";
+import "../../voltui_uikit/src/styles/themes/light.css";
+import "../../voltui_uikit/src/styles/themes/dark.css";
 
 const preview: Preview = {
   parameters: {

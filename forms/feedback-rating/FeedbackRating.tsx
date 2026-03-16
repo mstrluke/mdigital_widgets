@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Textarea from "@mdigital_ui/ui/textarea";
-import Button from "@mdigital_ui/ui/button";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@voltui/uikit/card";
+import Textarea from "@voltui/uikit/textarea";
+import Button from "@voltui/uikit/button";
+import { cn } from "@voltui/uikit";
 import type { FeedbackRatingProps } from "./FeedbackRating.types";
 
 export default function FeedbackRating({ onSubmit, title = "How was your experience?", maxRating = 5, showComment = true, loading, className }: FeedbackRatingProps) {

@@ -1,8 +1,8 @@
 "use client";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import Button from "@mdigital_ui/ui/button";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@voltui/uikit/card";
+import Badge from "@voltui/uikit/badge";
+import Button from "@voltui/uikit/button";
+import { cn } from "@voltui/uikit";
 import type { NotificationCenterProps } from "./NotificationCenter.types";
 
 const colorMap: Record<string, string> = { info: "primary", success: "success", warning: "warning", error: "error" };

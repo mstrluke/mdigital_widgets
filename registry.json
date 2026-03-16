@@ -19,13 +19,12 @@
         "LoginForm.types.ts",
         "index.ts"
       ],
-      "dependencies": [
-        "react-hook-form",
-        "@hookform/resolvers",
-        "zod"
-      ],
+      "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0",
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*"
       }
     },
     {
@@ -45,13 +44,12 @@
         "RegisterForm.types.ts",
         "index.ts"
       ],
-      "dependencies": [
-        "react-hook-form",
-        "@hookform/resolvers",
-        "zod"
-      ],
+      "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0",
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*"
       }
     },
     {
@@ -73,7 +71,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -93,13 +91,12 @@
         "ResetPasswordForm.types.ts",
         "index.ts"
       ],
-      "dependencies": [
-        "react-hook-form",
-        "@hookform/resolvers",
-        "zod"
-      ],
+      "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0",
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*"
       }
     },
     {
@@ -121,7 +118,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -143,7 +140,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -166,7 +163,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -189,7 +186,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -211,7 +208,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -233,7 +230,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -255,7 +252,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -277,7 +274,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -299,7 +296,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -321,7 +318,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -343,7 +340,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -365,7 +362,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -387,7 +384,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -409,7 +406,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -431,7 +428,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -454,7 +451,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -476,7 +473,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -496,13 +493,12 @@
         "ContactForm.types.ts",
         "index.ts"
       ],
-      "dependencies": [
-        "react-hook-form",
-        "@hookform/resolvers",
-        "zod"
-      ],
+      "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0",
+        "react-hook-form": "*",
+        "@hookform/resolvers": "*",
+        "zod": "*"
       }
     },
     {
@@ -525,7 +521,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -548,7 +544,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -570,7 +566,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -592,7 +588,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -614,7 +610,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -637,7 +633,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -659,7 +655,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -681,7 +677,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -704,7 +700,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -726,7 +722,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -748,7 +744,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -770,7 +766,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -792,7 +788,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -814,7 +810,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -836,7 +832,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -858,7 +854,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -881,7 +877,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -903,7 +899,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -926,7 +922,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -949,7 +945,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -971,7 +967,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -993,7 +989,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -1015,7 +1011,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -1038,7 +1034,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     },
     {
@@ -1061,7 +1057,7 @@
       ],
       "dependencies": [],
       "peerDependencies": {
-        "@mdigital_ui/ui": ">=1.0.0"
+        "@voltui/uikit": ">=1.0.0"
       }
     }
   ]

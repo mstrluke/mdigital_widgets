@@ -3,10 +3,10 @@
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import Textarea from "@mdigital_ui/ui/textarea";
-import Button from "@mdigital_ui/ui/button";
+import Card, { CardContent, CardHeader, CardTitle } from "@voltui/uikit/card";
+import Input from "@voltui/uikit/input";
+import Textarea from "@voltui/uikit/textarea";
+import Button from "@voltui/uikit/button";
 import type { ContactFormProps, ContactFormData } from "./ContactForm.types";
 
 const schema = z.object({

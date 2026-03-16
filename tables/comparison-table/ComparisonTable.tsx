@@ -1,7 +1,7 @@
 "use client";
 
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Badge from "@voltui/uikit/badge";
+import { cn } from "@voltui/uikit";
 import type { ComparisonTableProps } from "./ComparisonTable.types";
 
 export default function ComparisonTable({ plans, features, highlightPlan, className }: ComparisonTableProps) {

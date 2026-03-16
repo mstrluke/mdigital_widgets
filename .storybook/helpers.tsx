@@ -3,7 +3,7 @@ import React from "react";
 export const Logo = () => (
   <div className="flex items-center gap-2 font-bold text-lg">
     <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm">M</div>
-    <span>MDigital</span>
+    <span>VoltUI</span>
   </div>
 );
 

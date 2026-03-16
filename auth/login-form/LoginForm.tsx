@@ -3,14 +3,14 @@
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Input from "@mdigital_ui/ui/input";
-import InputPassword from "@mdigital_ui/ui/input-password";
-import Checkbox from "@mdigital_ui/ui/checkbox";
-import Button from "@mdigital_ui/ui/button";
-import Link from "@mdigital_ui/ui/link";
-import Notification from "@mdigital_ui/ui/notification";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Input from "@voltui/uikit/input";
+import InputPassword from "@voltui/uikit/input-password";
+import Checkbox from "@voltui/uikit/checkbox";
+import Button from "@voltui/uikit/button";
+import Link from "@voltui/uikit/link";
+import Notification from "@voltui/uikit/notification";
+import { cn } from "@voltui/uikit";
 import type { LoginFormProps, LoginFormData } from "./LoginForm.types";
 
 const schema = z.object({ email: z.string().email(), password: z.string().min(1), rememberMe: z.boolean().optional() });

@@ -15,7 +15,7 @@ export const Default: Story = {
     logo: (
       <div className="flex items-center gap-2 font-bold text-lg">
         <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center text-white text-sm">M</div>
-        <span>MDigital</span>
+        <span>VoltUI</span>
       </div>
     ),
     columns: [
@@ -23,7 +23,7 @@ export const Default: Story = {
       { title: "Resources", links: [{ label: "Documentation", href: "#" }, { label: "API Reference", href: "#" }, { label: "Guides", href: "#" }] },
       { title: "Company", links: [{ label: "About", href: "#" }, { label: "Blog", href: "#" }, { label: "Careers", href: "#" }, { label: "Contact", href: "#" }] },
     ],
-    copyright: "© 2026 MDigital. All rights reserved.",
+    copyright: "© 2026 VoltUI. All rights reserved.",
   },
 };
 

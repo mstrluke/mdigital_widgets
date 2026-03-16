@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
-import Modal from "@mdigital_ui/ui/modal";
-import Input from "@mdigital_ui/ui/input";
-import { cn } from "@mdigital_ui/ui";
+import Modal from "@voltui/uikit/modal";
+import Input from "@voltui/uikit/input";
+import { cn } from "@voltui/uikit";
 import type { CommandMenuProps } from "./CommandMenu.types";
 
 export default function CommandMenu({ items, open, onOpenChange, placeholder = "Search..." }: CommandMenuProps) {

@@ -1,9 +1,9 @@
 "use client";
 
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import Skeleton from "@mdigital_ui/ui/skeleton";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Badge from "@voltui/uikit/badge";
+import Skeleton from "@voltui/uikit/skeleton";
+import { cn } from "@voltui/uikit";
 import type { StatGroupProps } from "./StatGroup.types";
 
 const colMap: Record<number, string> = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-3", 4: "sm:grid-cols-2 lg:grid-cols-4" };

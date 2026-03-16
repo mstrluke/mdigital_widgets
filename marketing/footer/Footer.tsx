@@ -1,6 +1,6 @@
 "use client";
-import Link from "@mdigital_ui/ui/link";
-import { cn } from "@mdigital_ui/ui";
+import Link from "@voltui/uikit/link";
+import { cn } from "@voltui/uikit";
 import type { FooterProps } from "./Footer.types";
 
 export default function Footer({ columns, copyright, logo, className }: FooterProps) {

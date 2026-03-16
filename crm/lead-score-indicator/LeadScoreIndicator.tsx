@@ -1,7 +1,7 @@
 "use client";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import Progress from "@mdigital_ui/ui/progress";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@voltui/uikit/card";
+import Progress from "@voltui/uikit/progress";
+import { cn } from "@voltui/uikit";
 import type { LeadScoreIndicatorProps } from "./LeadScoreIndicator.types";
 
 export default function LeadScoreIndicator({ score, maxScore = 100, factors, className }: LeadScoreIndicatorProps) {

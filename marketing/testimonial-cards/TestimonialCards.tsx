@@ -1,7 +1,7 @@
 "use client";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Avatar from "@mdigital_ui/ui/avatar";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Avatar from "@voltui/uikit/avatar";
+import { cn } from "@voltui/uikit";
 import type { TestimonialCardsProps } from "./TestimonialCards.types";
 
 export default function TestimonialCards({ testimonials, columns = 3, className }: TestimonialCardsProps) {

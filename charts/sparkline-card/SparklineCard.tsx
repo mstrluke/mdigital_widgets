@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo } from "react";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import { cn } from "@voltui/uikit";
 import type { SparklineCardProps } from "./SparklineCard.types";
 
 export default function SparklineCard({ title, value, data, color = "var(--color-primary)", height = 40, className }: SparklineCardProps) {

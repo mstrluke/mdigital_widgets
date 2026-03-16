@@ -1,9 +1,9 @@
 "use client";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Badge from "@mdigital_ui/ui/badge";
-import Progress from "@mdigital_ui/ui/progress";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Avatar from "@voltui/uikit/avatar";
+import Badge from "@voltui/uikit/badge";
+import Progress from "@voltui/uikit/progress";
+import { cn } from "@voltui/uikit";
 import type { DealCardProps } from "./DealCard.types";
 
 export default function DealCard({ deal, currency = "$", onClick, className }: DealCardProps) {

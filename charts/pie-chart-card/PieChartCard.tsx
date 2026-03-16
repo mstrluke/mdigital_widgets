@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo } from "react";
-import Card, { CardContent, CardHeader, CardTitle } from "@mdigital_ui/ui/card";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent, CardHeader, CardTitle } from "@voltui/uikit/card";
+import { cn } from "@voltui/uikit";
 import type { PieChartCardProps } from "./PieChartCard.types";
 
 export default function PieChartCard({ title, segments, size = 160, showLegend = true, actions, className }: PieChartCardProps) {

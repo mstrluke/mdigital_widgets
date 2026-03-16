@@ -15,7 +15,7 @@ export const Default: Story = {
       id: "INV-2026-001",
       date: "March 1, 2026",
       status: "Paid",
-      from: { name: "MDigital Inc.", address: "123 Tech Ave, San Francisco, CA" },
+      from: { name: "VoltUI Inc.", address: "123 Tech Ave, San Francisco, CA" },
       to: { name: "Acme Corp", address: "456 Business Blvd, New York, NY" },
       items: [
         { description: "Enterprise License (Annual)", quantity: 1, rate: 12000, amount: 12000 },
@@ -35,7 +35,7 @@ export const Pending: Story = {
       id: "INV-2026-002",
       date: "March 3, 2026",
       status: "Pending",
-      from: { name: "MDigital Inc." },
+      from: { name: "VoltUI Inc." },
       to: { name: "TechStart LLC" },
       items: [
         { description: "Starter Plan (Monthly)", quantity: 1, rate: 49, amount: 49 },

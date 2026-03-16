@@ -1,8 +1,8 @@
 "use client";
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Avatar from "@mdigital_ui/ui/avatar";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Avatar from "@voltui/uikit/avatar";
+import Badge from "@voltui/uikit/badge";
+import { cn } from "@voltui/uikit";
 import type { UserProfileCardProps } from "./UserProfileCard.types";
 
 const statusConfig: Record<string, { color: string; label: string }> = {

@@ -1,6 +1,6 @@
 "use client";
-import Button from "@mdigital_ui/ui/button";
-import { cn } from "@mdigital_ui/ui";
+import Button from "@voltui/uikit/button";
+import { cn } from "@voltui/uikit";
 import type { BulkActionBarProps } from "./BulkActionBar.types";
 
 export default function BulkActionBar({ selectedCount, actions, onAction, onClearSelection, className }: BulkActionBarProps) {

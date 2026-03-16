@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@voltui/uikit";
 import type { StatsCounterProps, CounterStat } from "./StatsCounter.types";
 
 function AnimatedNumber({ stat }: { stat: CounterStat }) {

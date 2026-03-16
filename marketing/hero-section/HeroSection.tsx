@@ -1,7 +1,7 @@
 "use client";
-import Button from "@mdigital_ui/ui/button";
-import Badge from "@mdigital_ui/ui/badge";
-import { cn } from "@mdigital_ui/ui";
+import Button from "@voltui/uikit/button";
+import Badge from "@voltui/uikit/badge";
+import { cn } from "@voltui/uikit";
 import type { HeroSectionProps } from "./HeroSection.types";
 
 export default function HeroSection({ title, subtitle, actions, image, badge, align = "center", className }: HeroSectionProps) {

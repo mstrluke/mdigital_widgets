@@ -12,7 +12,7 @@ type Story = StoryObj<typeof CtaBanner>;
 export const Default: Story = {
   args: {
     title: "Ready to get started?",
-    description: "Join thousands of teams building better products with MDigital.",
+    description: "Join thousands of teams building better products with VoltUI.",
     primaryAction: { label: "Start free trial", href: "#" },
     secondaryAction: { label: "Talk to sales", href: "#" },
   },

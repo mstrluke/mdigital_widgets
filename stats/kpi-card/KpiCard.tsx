@@ -1,9 +1,9 @@
 "use client";
 
-import Card, { CardContent } from "@mdigital_ui/ui/card";
-import Badge from "@mdigital_ui/ui/badge";
-import Skeleton from "@mdigital_ui/ui/skeleton";
-import { cn } from "@mdigital_ui/ui";
+import Card, { CardContent } from "@voltui/uikit/card";
+import Badge from "@voltui/uikit/badge";
+import Skeleton from "@voltui/uikit/skeleton";
+import { cn } from "@voltui/uikit";
 import type { KpiCardProps } from "./KpiCard.types";
 
 export default function KpiCard({ title, value, change, changeLabel, trend, icon, loading, className }: KpiCardProps) {
